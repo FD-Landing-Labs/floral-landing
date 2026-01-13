@@ -140,17 +140,6 @@ export function Services({ data }: ServicesProps) {
           <div className="hidden lg:block pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-background to-transparent" />
         </div>
       </div>
-
-      {/* Hide scrollbar styles */}
-      <style jsx global>{`
-        .scrollbar-hide {
-          -ms-overflow-style: none;
-          scrollbar-width: none;
-        }
-        .scrollbar-hide::-webkit-scrollbar {
-          display: none;
-        }
-      `}</style>
     </section>
   );
 }
