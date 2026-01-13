@@ -1,0 +1,487 @@
+{
+  "site": {
+    "name": "FD Floral",
+    "tagline": "Wedding Floral Design",
+    "description": "Exquisite floral arrangements and wedding decorations that transform your special day into an unforgettable celebration of love and beauty.",
+    "logo": {
+      "default": "https://placehold.co/120x40/1a1a1a/ffffff?text=FD+Floral",
+      "white": "https://placehold.co/120x40/ffffff/1a1a1a?text=FD+Floral",
+      "alt": "FD Floral Wedding Design Logo"
+    },
+    "seo": {
+      "title": "FD Floral - Luxury Wedding Floral Design",
+      "description": "Transform your wedding with breathtaking floral arrangements. Luxury wedding florals, bouquets, ceremony decor, and reception styling by FD Floral.",
+      "keywords": [
+        "wedding flowers",
+        "floral design",
+        "wedding decorator",
+        "bridal bouquet",
+        "ceremony flowers",
+        "reception decor",
+        "luxury wedding florals"
+      ],
+      "ogImage": "https://placehold.co/1200x630/d92983/ffffff?text=FD+Floral"
+    }
+  },
+  "navbar": {
+    "brandName": "FD Floral",
+    "brandMark": "",
+    "barLinks": [
+      {
+        "name": "About",
+        "href": "#intro"
+      },
+      {
+        "name": "Services",
+        "href": "#services"
+      },
+      {
+        "name": "Portfolio",
+        "href": "#works"
+      },
+      {
+        "name": "FAQ",
+        "href": "#faq"
+      }
+    ],
+    "cta": {
+      "label": "Book Consultation",
+      "href": "#footer"
+    },
+    "menuLinks": [
+      {
+        "name": "Home",
+        "number": "01",
+        "href": "#hero"
+      },
+      {
+        "name": "About",
+        "number": "02",
+        "href": "#intro"
+      },
+      {
+        "name": "Why Us",
+        "number": "03",
+        "href": "#why-us"
+      },
+      {
+        "name": "Services",
+        "number": "04",
+        "href": "#services"
+      },
+      {
+        "name": "Portfolio",
+        "number": "05",
+        "href": "#works"
+      },
+      {
+        "name": "Testimonials",
+        "number": "06",
+        "href": "#testimonials"
+      },
+      {
+        "name": "Contact",
+        "number": "07",
+        "href": "#footer"
+      }
+    ],
+    "featured": {
+      "studioName": "FD Floral Studio",
+      "image": "https://placehold.co/400x500/fce7f4/d92983?text=Featured",
+      "copyright": "© 2026 All rights reserved"
+    },
+    "contact": {
+      "email": "hello@fdfloral.com",
+      "phone": "(123) 456-7890"
+    },
+    "socialLinks": [
+      {
+        "name": "Instagram",
+        "href": "https://instagram.com"
+      },
+      {
+        "name": "Pinterest",
+        "href": "https://pinterest.com"
+      },
+      {
+        "name": "Facebook",
+        "href": "https://facebook.com"
+      }
+    ]
+  },
+  "hero": {
+    "headline": {
+      "line1": "Crafting",
+      "line2": "Floral Magic",
+      "line3": "For Your Day"
+    },
+    "description": "We create breathtaking floral experiences that transform your wedding into an enchanting celebration of love, beauty, and timeless elegance.",
+    "image": "https://placehold.co/800x1000/fce7f4/d92983?text=Hero+Image",
+    "cta": {
+      "primary": {
+        "label": "Book Consultation",
+        "href": "#footer"
+      },
+      "secondary": {
+        "label": "View Portfolio",
+        "href": "#works"
+      }
+    },
+    "stats": {
+      "weddings": "500+",
+      "weddingsLabel": "Weddings Styled",
+      "rating": "4.9",
+      "ratingLabel": "Client Rating"
+    }
+  },
+  "intro": {
+    "sectionLabel": "/About Us",
+    "sectionNumber": "01",
+    "headline": "Where Flowers Meet Forever",
+    "description": "At FD Floral, we believe every love story deserves to be adorned with nature's most beautiful creations. With over a decade of experience in luxury wedding floral design, we transform your vision into stunning botanical masterpieces that capture the essence of your unique romance.",
+    "image": "https://placehold.co/600x800/fce7f4/d92983?text=About+Image",
+    "highlights": [
+      "Personalized design consultations",
+      "Premium seasonal blooms",
+      "Full-service wedding styling",
+      "Sustainable floral practices"
+    ]
+  },
+  "whyUs": {
+    "sectionLabel": "/Why Choose Us",
+    "sectionNumber": "02",
+    "headline": {
+      "main": "We create floral experiences that are",
+      "highlight": "elegant, personalized, and unforgettable."
+    },
+    "features": [
+      {
+        "id": "feature-1",
+        "icon": "flower",
+        "title": "Artisan Craftsmanship",
+        "description": "Each arrangement is meticulously handcrafted by our expert florists with an eye for detail and design excellence."
+      },
+      {
+        "id": "feature-2",
+        "icon": "heart",
+        "title": "Personalized Service",
+        "description": "We take time to understand your vision, style, and love story to create florals that truly reflect you."
+      },
+      {
+        "id": "feature-3",
+        "icon": "sparkles",
+        "title": "Premium Quality",
+        "description": "We source only the freshest, most exquisite blooms from trusted local and international growers."
+      },
+      {
+        "id": "feature-4",
+        "icon": "calendar",
+        "title": "Stress-Free Experience",
+        "description": "From consultation to installation, we handle every detail so you can focus on enjoying your special day."
+      }
+    ],
+    "stats": [
+      {
+        "value": "500+",
+        "label": "Weddings Styled"
+      },
+      {
+        "value": "10+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "4.9",
+        "label": "Client Rating"
+      }
+    ]
+  },
+  "services": {
+    "sectionLabel": "/Our Services",
+    "sectionNumber": "03",
+    "headline": "Full-Service Wedding Florals",
+    "description": "From intimate elopements to grand celebrations, we offer comprehensive floral services tailored to your unique vision and style.",
+    "items": [
+      {
+        "id": "service-1",
+        "title": "Bridal Bouquets",
+        "description": "Stunning hand-tied bouquets that complement your gown and personal style, from classic roses to wild garden designs.",
+        "image": "https://placehold.co/400x500/fce7f4/d92983?text=Bouquets",
+        "icon": "flower2"
+      },
+      {
+        "id": "service-2",
+        "title": "Ceremony Decor",
+        "description": "Transform your ceremony space with breathtaking arches, aisle arrangements, and altar pieces that set the perfect scene.",
+        "image": "https://placehold.co/400x500/fce7f4/d92983?text=Ceremony",
+        "icon": "church"
+      },
+      {
+        "id": "service-3",
+        "title": "Reception Styling",
+        "description": "Elegant centerpieces, table runners, and statement installations that create an unforgettable dining experience.",
+        "image": "https://placehold.co/400x500/fce7f4/d92983?text=Reception",
+        "icon": "wine"
+      },
+      {
+        "id": "service-4",
+        "title": "Full Wedding Styling",
+        "description": "Complete floral design from ceremony to reception, including personal flowers, installations, and day-of setup.",
+        "image": "https://placehold.co/400x500/fce7f4/d92983?text=Full+Styling",
+        "icon": "sparkles"
+      }
+    ]
+  },
+  "works": {
+    "sectionLabel": "/Portfolio",
+    "sectionNumber": "04",
+    "headline": "Our Recent Work",
+    "description": "A glimpse into the beautiful celebrations we've had the honor of styling.",
+    "viewAllLink": {
+      "label": "View full portfolio",
+      "href": "#"
+    },
+    "items": [
+      {
+        "id": "work-1",
+        "title": "Garden Romance",
+        "category": "Outdoor Wedding",
+        "image": "https://placehold.co/600x800/fce7f4/d92983?text=Garden+Romance",
+        "year": "2026"
+      },
+      {
+        "id": "work-2",
+        "title": "Rustic Elegance",
+        "category": "Barn Wedding",
+        "image": "https://placehold.co/600x800/fce7f4/d92983?text=Rustic+Elegance",
+        "year": "2026"
+      },
+      {
+        "id": "work-3",
+        "title": "Modern Luxe",
+        "category": "Ballroom Wedding",
+        "image": "https://placehold.co/600x800/fce7f4/d92983?text=Modern+Luxe",
+        "year": "2025"
+      },
+      {
+        "id": "work-4",
+        "title": "Tropical Paradise",
+        "category": "Destination Wedding",
+        "image": "https://placehold.co/600x800/fce7f4/d92983?text=Tropical+Paradise",
+        "year": "2025"
+      },
+      {
+        "id": "work-5",
+        "title": "Timeless Classic",
+        "category": "Church Wedding",
+        "image": "https://placehold.co/600x800/fce7f4/d92983?text=Timeless+Classic",
+        "year": "2024"
+      },
+      {
+        "id": "work-6",
+        "title": "Bohemian Dream",
+        "category": "Beach Wedding",
+        "image": "https://placehold.co/600x800/fce7f4/d92983?text=Bohemian+Dream",
+        "year": "2024"
+      }
+    ]
+  },
+  "promo": {
+    "sectionNumber": "05",
+    "headline": "Let's Create Something Beautiful Together",
+    "description": "Ready to bring your floral vision to life? Book a complimentary consultation and let's start designing the wedding of your dreams.",
+    "image": "https://placehold.co/800x600/fce7f4/d92983?text=Promo+Image",
+    "cta": {
+      "label": "Book Free Consultation",
+      "href": "#footer"
+    },
+    "features": [
+      "Free initial consultation",
+      "Custom design proposals",
+      "Flexible packages"
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "/Testimonials",
+    "sectionNumber": "06",
+    "headline": "Love Stories We've Adorned",
+    "description": "Hear from the couples whose special days we've had the honor of styling.",
+    "items": [
+      {
+        "id": "testimonial-1",
+        "name": "Sarah & Michael",
+        "role": "Garden Wedding, June 2025",
+        "quote": "FD Floral exceeded every expectation. Our ceremony arch was absolutely breathtaking, and the attention to detail was incredible. They truly understood our vision.",
+        "avatar": "https://placehold.co/80x80/fce7f4/d92983?text=S",
+        "rating": 5
+      },
+      {
+        "id": "testimonial-2",
+        "name": "Emma & James",
+        "role": "Ballroom Wedding, March 2025",
+        "quote": "Working with FD Floral was a dream. They transformed our venue into a romantic paradise. The centerpieces were stunning and the bridal bouquet was perfect.",
+        "avatar": "https://placehold.co/80x80/fce7f4/d92983?text=E",
+        "rating": 5
+      },
+      {
+        "id": "testimonial-3",
+        "name": "Jessica & David",
+        "role": "Rustic Barn Wedding, September 2024",
+        "quote": "From our first consultation to the wedding day, FD Floral was professional, creative, and so easy to work with. Our flowers were the highlight of the venue.",
+        "avatar": "https://placehold.co/80x80/fce7f4/d92983?text=J",
+        "rating": 5
+      },
+      {
+        "id": "testimonial-4",
+        "name": "Amanda & Chris",
+        "role": "Beach Wedding, July 2024",
+        "quote": "They created the most beautiful tropical arrangements for our destination wedding. Despite the logistics, everything was flawless. Highly recommend!",
+        "avatar": "https://placehold.co/80x80/fce7f4/d92983?text=A",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "/FAQs",
+    "sectionNumber": "07",
+    "headline": "Common Questions",
+    "description": "Everything you need to know about working with us for your wedding florals.",
+    "cta": {
+      "label": "Still have questions? Contact us",
+      "href": "#footer"
+    },
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "How far in advance should I book?",
+        "answer": "We recommend booking 6-12 months before your wedding date to ensure availability, especially for peak wedding season (May-October). However, we occasionally have openings for shorter timelines, so don't hesitate to reach out."
+      },
+      {
+        "id": "faq-2",
+        "question": "What is your pricing structure?",
+        "answer": "Our wedding packages start at $2,500 for intimate celebrations and scale based on your vision, guest count, and floral selections. We provide detailed proposals after our initial consultation to ensure complete transparency."
+      },
+      {
+        "id": "faq-3",
+        "question": "Do you offer setup and breakdown?",
+        "answer": "Yes! All our packages include professional delivery, setup, and styling on your wedding day. We also offer next-day pickup for rental items like vases and arches."
+      },
+      {
+        "id": "faq-4",
+        "question": "Can you work with my wedding planner?",
+        "answer": "Absolutely! We love collaborating with wedding planners and venues to ensure seamless coordination. We're experienced in working with various professionals to bring your vision to life."
+      },
+      {
+        "id": "faq-5",
+        "question": "What if my flowers aren't in season?",
+        "answer": "We'll discuss seasonal availability during your consultation and suggest beautiful alternatives that achieve your desired look. We work with premium suppliers to source the best blooms year-round."
+      },
+      {
+        "id": "faq-6",
+        "question": "Do you do destination weddings?",
+        "answer": "Yes! We've styled destination weddings across the country and internationally. Travel fees apply and are discussed upfront. We coordinate with local vendors to ensure fresh, beautiful flowers arrive perfectly."
+      },
+      {
+        "id": "faq-7",
+        "question": "What is your cancellation policy?",
+        "answer": "We understand that plans can change. Deposits are non-refundable, but we offer flexible rescheduling options. Full details are provided in our contract."
+      }
+    ]
+  },
+  "footer": {
+    "brand": {
+      "name": "FD Floral",
+      "tagline": "Wedding Floral Design",
+      "brandMark": ""
+    },
+    "description": {
+      "text": "Ready to transform your wedding with breathtaking florals?",
+      "highlight": "Let's create something beautiful together."
+    },
+    "contact": {
+      "email": "hello@fdfloral.com",
+      "phone": "(123) 456-7890",
+      "address": "123 Bloom Street, Flower City, FC 12345"
+    },
+    "newsletter": {
+      "title": "Get wedding floral inspiration delivered to your inbox.",
+      "placeholder": "Your email",
+      "buttonText": "Subscribe"
+    },
+    "linkGroups": [
+      {
+        "title": "Quick Links",
+        "links": [
+          {
+            "name": "Home",
+            "href": "#hero"
+          },
+          {
+            "name": "About",
+            "href": "#intro"
+          },
+          {
+            "name": "Services",
+            "href": "#services"
+          },
+          {
+            "name": "Portfolio",
+            "href": "#works"
+          },
+          {
+            "name": "Contact",
+            "href": "#footer"
+          }
+        ]
+      },
+      {
+        "title": "Services",
+        "links": [
+          {
+            "name": "Bridal Bouquets",
+            "href": "#services"
+          },
+          {
+            "name": "Ceremony Decor",
+            "href": "#services"
+          },
+          {
+            "name": "Reception Styling",
+            "href": "#services"
+          },
+          {
+            "name": "Full Wedding Styling",
+            "href": "#services"
+          }
+        ]
+      },
+      {
+        "title": "Follow Us",
+        "links": [
+          {
+            "name": "Instagram",
+            "href": "https://instagram.com"
+          },
+          {
+            "name": "Pinterest",
+            "href": "https://pinterest.com"
+          },
+          {
+            "name": "Facebook",
+            "href": "https://facebook.com"
+          }
+        ]
+      }
+    ],
+    "bottomLinks": [
+      {
+        "name": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "name": "Terms of Service",
+        "href": "/terms"
+      }
+    ],
+    "copyright": "© 2026 FD Floral. All rights reserved."
+  }
+}
