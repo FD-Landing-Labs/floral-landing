@@ -111,30 +111,30 @@ export function Marquee({ data }: MarqueeProps) {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1, duration: 0.5 }}
-            className="inline-flex items-center gap-4 px-4 py-3 rounded-full border border-border bg-white shadow-sm mb-8"
+            className="inline-flex items-center gap-4 p-1.5 rounded-full border border-border bg-white shadow-sm mb-8"
           >
             {/* Avatar */}
             <div className="relative">
               <Image
-                src="https://placehold.co/56x56/fce7f4/d92983?text=S"
+                src="/assets/images/avatar/4.jpg"
                 alt="Florist"
                 width={56}
                 height={56}
                 className="w-14 h-14 rounded-full object-cover"
               />
               {/* Online indicator */}
-              <span className="absolute bottom-0 right-0 w-4 h-4 bg-green-500 border-2 border-white rounded-full" />
+              <span className="absolute bottom-0 right-0 w-4 h-4 bg-primary-500 border-2 border-white rounded-full" />
             </div>
 
             {/* Name & Role */}
             <div className="text-left">
-              <p className="font-semibold text-foreground">Sarah Mitchell</p>
-              <p className="text-sm text-muted-foreground">Lead Florist</p>
+              <p className="font-semibold text-foreground text-lg tracking-tighter">Sarah Mitchell</p>
+              <p className="text-xs tracking-widest uppercase text-muted-foreground ">Lead Florist</p>
             </div>
 
             {/* Phone Button */}
-            <button className="w-10 h-10 rounded-full border border-border bg-stone-50 flex items-center justify-center hover:bg-stone-100 transition-colors ml-2">
-              <Phone className="w-4 h-4 text-muted-foreground" />
+            <button className="w-14 h-14 rounded-full border border-border bg-stone-50 flex items-center justify-center hover:bg-stone-100 transition-colors ml-4">
+              <Phone className="w-5 h-5 text-muted-foreground" />
             </button>
           </motion.div>
 
@@ -144,7 +144,7 @@ export function Marquee({ data }: MarqueeProps) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.5 }}
-            className="text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed"
+            className="text-lg md:text-2xl tracking-tight font-medium text-primary-800 max-w-2xl leading-snug"
           >
             "{data.description}"
           </motion.p>

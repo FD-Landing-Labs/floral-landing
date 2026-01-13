@@ -53,8 +53,8 @@ export function Promo({ data }: PromoProps) {
               transition={{ delay: 0.2, duration: 0.5 }}
               className="inline-flex items-center gap-2 mb-6"
             >
-              <span className="w-2 h-2 rounded-full bg-white/80" />
-              <p className="text-sm text-white/80">{data.sectionLabel}</p>
+              <span className="w-2 h-2 rounded-full bg-primary-400 animate-pulse" />
+              <p className="text-sm text-white/80 font-medium">{data.sectionLabel}</p>
             </motion.div>
 
             {/* Headline */}
@@ -63,7 +63,7 @@ export function Promo({ data }: PromoProps) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3, duration: 0.6 }}
-              className="text-[clamp(1.75rem,4vw,3.5rem)] font-medium text-white leading-[1.15] tracking-tight max-w-3xl mb-8"
+              className="text-[clamp(1.75rem,4vw,3.5rem)] font-medium text-white leading-[1.15] tracking-tighter capitalize max-w-3xl mb-8"
             >
               {headlineLines.map((line, index) => (
                 <span key={index}>
@@ -84,10 +84,10 @@ export function Promo({ data }: PromoProps) {
             >
               <Link
                 href={data.cta.href}
-                className="inline-flex items-center gap-0 bg-white rounded-full pl-1 pr-5 py-1 font-medium text-foreground hover:bg-white/95 transition-colors shadow-lg"
+                className="inline-flex items-center tracking-tight gap-0 bg-white rounded-full pl-1 pr-5 py-1 font-medium text-foreground hover:bg-white/95 transition-colors shadow-lg"
               >
                 {/* Arrow circle */}
-                <span className="w-10 h-10 rounded-full bg-foreground flex items-center justify-center mr-3">
+                <span className="w-10 h-10 rounded-full bg-foreground hover:bg-primary-600 flex items-center justify-center mr-3">
                   <ArrowUpRight className="w-4 h-4 text-white" />
                 </span>
                 {data.cta.label}

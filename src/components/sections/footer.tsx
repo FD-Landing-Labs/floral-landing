@@ -42,7 +42,7 @@ export function Footer({ data }: FooterProps) {
   const headlineLines = data.headline.split("\n");
 
   return (
-    <footer id="footer" className="bg-[#1a1a1a] text-white overflow-hidden">
+    <footer id="footer" className="bg-primary-950 text-white overflow-hidden">
       {/* Main Footer Content */}
       <div className="container px-6 md:px-12 lg:px-16 pt-16 md:pt-20 lg:pt-24">
         {/* Top Section - 3 Column Layout */}
@@ -207,7 +207,7 @@ export function Footer({ data }: FooterProps) {
 
           {/* Large Brand Name */}
           <div className="absolute inset-0 flex items-center justify-center">
-            <h2 className="text-[clamp(4rem,15vw,12rem)] font-medium text-white tracking-tight leading-none">
+            <h2 className="text-5xl md:text-[clamp(4rem,15vw,12rem)] font-medium text-white tracking-tighter leading-none">
               {data.brand.name}
             </h2>
           </div>

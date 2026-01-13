@@ -42,7 +42,7 @@ export function Intro({ data }: IntroProps) {
           src={data.image}
           alt="Floral arrangement showcase"
           fill
-          className="object-cover"
+          className="object-cover object-bottom"
         />
         {/* Dark overlay for text readability */}
         <div className="absolute inset-0 bg-black/40" />
@@ -89,7 +89,7 @@ export function Intro({ data }: IntroProps) {
           transition={{ delay: 0.4, duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
           className="self-end w-full max-w-md"
         >
-          <div className="bg-white/95 backdrop-blur-sm rounded-2xl md:rounded-3xl p-6 md:p-8 shadow-xl">
+          <div className="bg-white/95 backdrop-blur-sm rounded-2xl md:rounded-3xl px-4 shadow-xl">
             {stats.map((stat, index) => (
               <motion.div
                 key={stat.label}
@@ -97,12 +97,11 @@ export function Intro({ data }: IntroProps) {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.5 + index * 0.1, duration: 0.4 }}
-                className={`flex items-center justify-between gap-4 py-4 ${
-                  index !== stats.length - 1 ? "border-b border-border" : ""
-                }`}
+                className={`flex items-center justify-between gap-4 py-4 ${index !== stats.length - 1 ? "border-b border-border" : ""
+                  }`}
               >
                 {/* Value */}
-                <p className="text-3xl md:text-4xl font-semibold text-foreground min-w-[100px]">
+                <p className="text-3xl md:text-4xl font-semibold text-foreground min-w-[100px] text-primary-700 tracking-tighter">
                   {stat.value}
                 </p>
 

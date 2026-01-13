@@ -126,7 +126,7 @@ export function Hero({ data, navbar }: HeroProps) {
                     className="w-8 h-8 rounded-full border-2 border-white bg-primary-100 flex items-center justify-center overflow-hidden"
                   >
                     <Image
-                      src={`https://placehold.co/32x32/fce7f4/d92983?text=${i}`}
+                      src={`/assets/images/avatar/${i}.jpg`}
                       alt={`Client ${i}`}
                       width={32}
                       height={32}
@@ -148,7 +148,7 @@ export function Hero({ data, navbar }: HeroProps) {
                 className="h-14 px-4 rounded-full bg-foreground text-background hover:bg-foreground/90 gap-2 text-base font-medium"
               >
                 <Link href={data.cta.primary.href}>
-                  <span className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center -ml-2">
+                  <span className="w-10 h-10 rounded-full bg-primary-700 flex items-center justify-center -ml-2">
                     <ArrowUpRight className="w-5 h-5" />
                   </span>
                   {data.cta.primary.label}
@@ -221,17 +221,7 @@ export function Hero({ data, navbar }: HeroProps) {
               priority
             />
 
-            {/* Floating Chat Button */}
-            <motion.button
-              initial={{ opacity: 0, scale: 0 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.8, type: "spring", stiffness: 400, damping: 20 }}
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              className="absolute bottom-6 right-6 w-14 h-14 rounded-2xl bg-white/90 backdrop-blur-sm shadow-lg flex items-center justify-center hover:bg-white transition-colors"
-            >
-              <MessageCircle className="w-6 h-6 text-foreground" />
-            </motion.button>
+
           </div>
         </motion.div>
       </div>

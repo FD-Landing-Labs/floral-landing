@@ -42,7 +42,7 @@ export function Services({ data }: ServicesProps) {
             </p>
 
             {/* Headline */}
-            <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-medium tracking-tight leading-[1.1] text-foreground">
+            <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-medium tracking-tighter leading-[1] text-primary-900">
               {data.headline}
             </h2>
           </motion.div>
@@ -56,19 +56,12 @@ export function Services({ data }: ServicesProps) {
             className="lg:max-w-md"
           >
             {/* Description */}
-            <p className="text-muted-foreground leading-relaxed mb-6">
+            <p className="text-muted-foreground tracking-tight leading-relaxed mb-6">
               {data.description}
             </p>
 
             {/* CTAs */}
             <div className="flex flex-wrap items-center gap-6">
-              <Link
-                href="#services"
-                className="inline-flex items-center gap-1 text-primary-700 font-medium hover:text-primary-800 transition-colors group"
-              >
-                View All Services
-                <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
-              </Link>
               <Link
                 href="#footer"
                 className="inline-flex items-center gap-1 text-primary-700 font-medium hover:text-primary-800 transition-colors group"
@@ -106,12 +99,12 @@ export function Services({ data }: ServicesProps) {
                     />
 
                     {/* Dark overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent" />
 
                     {/* Content */}
                     <div className="absolute inset-x-0 bottom-0 p-5 md:p-6 flex items-end justify-between">
                       {/* Title */}
-                      <h3 className="text-white font-medium text-lg md:text-xl leading-tight max-w-[70%]">
+                      <h3 className="text-white font-medium text-lg md:text-xl leading-tight tracking-tighter max-w-[70%]">
                         {service.title}
                       </h3>
 
@@ -135,9 +128,6 @@ export function Services({ data }: ServicesProps) {
               </motion.div>
             ))}
           </div>
-
-          {/* Fade edges (optional, for better scroll indication) */}
-          <div className="hidden lg:block pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-background to-transparent" />
         </div>
       </div>
     </section>

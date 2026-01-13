@@ -63,7 +63,7 @@ export function Navbar({ data }: NavbarProps) {
             height={24}
             className="w-8 h-8 rounded-full"
           />
-          <span className="font-semibold text-foreground">{data.brandName}</span>
+          <span className="font-semibold text-foreground mr-2 tracking-tighter">{data.brandName}</span>
         </Link>
 
         {/* Nav Actions */}
@@ -132,7 +132,7 @@ export function Navbar({ data }: NavbarProps) {
                     <Link
                       href={item.href}
                       onClick={closeMenu}
-                      className={`block p-6 hover:bg-muted/50 transition-colors group ${
+                      className={`block p-4 hover:bg-muted/50 transition-colors group ${
                         // Add border-right for items not in last column
                         (index + 1) % 3 !== 0 ? "lg:border-r border-border" : ""
                         } ${
@@ -161,7 +161,7 @@ export function Navbar({ data }: NavbarProps) {
                 <Link
                   href={data.cta.href}
                   onClick={closeMenu}
-                  className="relative block w-full h-48 md:h-56 rounded-2xl overflow-hidden group"
+                  className="relative block w-full h-40 rounded-2xl overflow-hidden group"
                 >
                   <Image
                     src={data.featured.image}
