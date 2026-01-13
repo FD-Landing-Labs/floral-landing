@@ -1,16 +1,16 @@
 {
   "site": {
-    "name": "FD Floral",
+    "name": "Shanoory",
     "tagline": "Wedding Floral Design",
     "description": "Exquisite floral arrangements and wedding decorations that transform your special day into an unforgettable celebration of love and beauty.",
     "logo": {
       "default": "https://placehold.co/120x40/1a1a1a/ffffff?text=FD+Floral",
       "white": "https://placehold.co/120x40/ffffff/1a1a1a?text=FD+Floral",
-      "alt": "FD Floral Wedding Design Logo"
+      "alt": "Shanoory Wedding Design Logo"
     },
     "seo": {
-      "title": "FD Floral - Luxury Wedding Floral Design",
-      "description": "Transform your wedding with breathtaking floral arrangements. Luxury wedding florals, bouquets, ceremony decor, and reception styling by FD Floral.",
+      "title": "Shanoory - Luxury Wedding Floral Design",
+      "description": "Transform your wedding with breathtaking floral arrangements. Luxury wedding florals, bouquets, ceremony decor, and reception styling by Shanoory.",
       "keywords": [
         "wedding flowers",
         "floral design",
@@ -24,7 +24,7 @@
     }
   },
   "navbar": {
-    "brandName": "FD Floral",
+    "brandName": "Shanoory",
     "brandMark": "",
     "barLinks": [
       {
@@ -86,7 +86,7 @@
       }
     ],
     "featured": {
-      "studioName": "FD Floral Studio",
+      "studioName": "Shanoory Studio",
       "image": "https://placehold.co/400x500/fce7f4/d92983?text=Featured",
       "copyright": "© 2026 All rights reserved"
     },
@@ -138,7 +138,7 @@
     "sectionLabel": "/About Us",
     "sectionNumber": "01",
     "headline": "Where Flowers Meet Forever",
-    "description": "At FD Floral, we believe every love story deserves to be adorned with nature's most beautiful creations. With over a decade of experience in luxury wedding floral design, we transform your vision into stunning botanical masterpieces that capture the essence of your unique romance.",
+    "description": "At Shanoory, we believe every love story deserves to be adorned with nature's most beautiful creations. With over a decade of experience in luxury wedding floral design, we transform your vision into stunning botanical masterpieces that capture the essence of your unique romance.",
     "image": "https://placehold.co/600x800/fce7f4/d92983?text=About+Image",
     "highlights": [
       "Personalized design consultations",
@@ -232,111 +232,177 @@
     ]
   },
   "works": {
-    "sectionLabel": "/Portfolio",
+    "sectionLabel": "Gallery",
     "sectionNumber": "04",
-    "headline": "Our Recent Work",
+    "headline": "Glimpses of Our Floral Artistry",
     "description": "A glimpse into the beautiful celebrations we've had the honor of styling.",
-    "viewAllLink": {
-      "label": "View full portfolio",
+    "cta": {
+      "label": "View Portfolio",
       "href": "#"
     },
     "items": [
       {
         "id": "work-1",
+        "number": "01",
         "title": "Garden Romance",
-        "category": "Outdoor Wedding",
-        "image": "https://placehold.co/600x800/fce7f4/d92983?text=Garden+Romance",
-        "year": "2026"
+        "image": "https://placehold.co/600x700/fce7f4/d92983?text=Garden+Romance"
       },
       {
         "id": "work-2",
+        "number": "02",
         "title": "Rustic Elegance",
-        "category": "Barn Wedding",
-        "image": "https://placehold.co/600x800/fce7f4/d92983?text=Rustic+Elegance",
-        "year": "2026"
+        "image": "https://placehold.co/600x750/fce7f4/d92983?text=Rustic+Elegance"
       },
       {
         "id": "work-3",
-        "title": "Modern Luxe",
-        "category": "Ballroom Wedding",
-        "image": "https://placehold.co/600x800/fce7f4/d92983?text=Modern+Luxe",
-        "year": "2025"
+        "number": "03",
+        "title": "Bohemian Dream",
+        "image": "https://placehold.co/600x650/fce7f4/d92983?text=Bohemian+Dream"
       },
       {
         "id": "work-4",
-        "title": "Tropical Paradise",
-        "category": "Destination Wedding",
-        "image": "https://placehold.co/600x800/fce7f4/d92983?text=Tropical+Paradise",
-        "year": "2025"
+        "number": "04",
+        "title": "Modern Luxe",
+        "image": "https://placehold.co/600x850/fce7f4/d92983?text=Modern+Luxe"
       },
       {
         "id": "work-5",
-        "title": "Timeless Classic",
-        "category": "Church Wedding",
-        "image": "https://placehold.co/600x800/fce7f4/d92983?text=Timeless+Classic",
-        "year": "2024"
+        "number": "05",
+        "title": "Classic Ceremony",
+        "image": "https://placehold.co/600x800/fce7f4/d92983?text=Classic+Ceremony"
       },
       {
         "id": "work-6",
-        "title": "Bohemian Dream",
-        "category": "Beach Wedding",
-        "image": "https://placehold.co/600x800/fce7f4/d92983?text=Bohemian+Dream",
-        "year": "2024"
+        "number": "06",
+        "title": "Reception Styling",
+        "image": "https://placehold.co/600x700/fce7f4/d92983?text=Reception+Styling"
+      },
+      {
+        "id": "work-7",
+        "number": "07",
+        "title": "Tropical Paradise",
+        "image": "https://placehold.co/600x750/fce7f4/d92983?text=Tropical+Paradise"
+      },
+      {
+        "id": "work-8",
+        "number": "08",
+        "title": "Intimate Elopement",
+        "image": "https://placehold.co/600x650/fce7f4/d92983?text=Intimate+Elopement"
+      },
+      {
+        "id": "work-9",
+        "number": "09",
+        "title": "Grand Ballroom",
+        "image": "https://placehold.co/600x800/fce7f4/d92983?text=Grand+Ballroom"
       }
     ]
   },
   "promo": {
+    "sectionLabel": "Special Offer",
     "sectionNumber": "05",
-    "headline": "Let's Create Something Beautiful Together",
-    "description": "Ready to bring your floral vision to life? Book a complimentary consultation and let's start designing the wedding of your dreams.",
-    "image": "https://placehold.co/800x600/fce7f4/d92983?text=Promo+Image",
+    "headline": "Book 6+ months ahead\nand enjoy 15% savings",
+    "image": "https://placehold.co/1600x600/fce7f4/d92983?text=Promo+Banner",
     "cta": {
-      "label": "Book Free Consultation",
+      "label": "Reserve Now",
       "href": "#footer"
-    },
-    "features": [
-      "Free initial consultation",
-      "Custom design proposals",
-      "Flexible packages"
-    ]
+    }
   },
   "testimonials": {
-    "sectionLabel": "/Testimonials",
+    "sectionLabel": "Reviews",
     "sectionNumber": "06",
-    "headline": "Love Stories We've Adorned",
-    "description": "Hear from the couples whose special days we've had the honor of styling.",
+    "overallRating": "4.98",
+    "headline": "We're proud to deliver florals\nthat couples consistently love.",
+    "ratingCategories": [
+      { "label": "Quality", "value": "4.9" },
+      { "label": "Service", "value": "5.0" },
+      { "label": "Design", "value": "5.0" },
+      { "label": "Communication", "value": "5.0" }
+    ],
+    "cta": {
+      "label": "View All",
+      "href": "#"
+    },
     "items": [
       {
         "id": "testimonial-1",
-        "name": "Sarah & Michael",
-        "role": "Garden Wedding, June 2025",
-        "quote": "FD Floral exceeded every expectation. Our ceremony arch was absolutely breathtaking, and the attention to detail was incredible. They truly understood our vision.",
+        "name": "Sarah M.",
+        "location": "Garden Wedding",
+        "rating": "5.0",
+        "quote": "Absolutely stunning work! The ceremony arch took our breath away, and every single arrangement was perfect. Shanoory truly understood our vision and brought it to life beautifully.",
         "avatar": "https://placehold.co/80x80/fce7f4/d92983?text=S",
-        "rating": 5
+        "date": "Aug 28, 2025"
       },
       {
         "id": "testimonial-2",
-        "name": "Emma & James",
-        "role": "Ballroom Wedding, March 2025",
-        "quote": "Working with FD Floral was a dream. They transformed our venue into a romantic paradise. The centerpieces were stunning and the bridal bouquet was perfect.",
+        "name": "Emily R.",
+        "location": "Ballroom Wedding",
+        "rating": "5.0",
+        "quote": "Working with Shanoory was a dream! They transformed our venue into a romantic paradise. The centerpieces were stunning and my bridal bouquet was exactly what I envisioned.",
         "avatar": "https://placehold.co/80x80/fce7f4/d92983?text=E",
-        "rating": 5
+        "date": "Jul 03, 2025"
       },
       {
         "id": "testimonial-3",
-        "name": "Jessica & David",
-        "role": "Rustic Barn Wedding, September 2024",
-        "quote": "From our first consultation to the wedding day, FD Floral was professional, creative, and so easy to work with. Our flowers were the highlight of the venue.",
+        "name": "Jessica K.",
+        "location": "Beach Wedding",
+        "rating": "5.0",
+        "quote": "Great value for the quality. Beautiful tropical arrangements, and the team was so close by. Ideal choice for our destination wedding.",
         "avatar": "https://placehold.co/80x80/fce7f4/d92983?text=J",
-        "rating": 5
+        "date": "Apr 10, 2025"
       },
       {
         "id": "testimonial-4",
-        "name": "Amanda & Chris",
-        "role": "Beach Wedding, July 2024",
-        "quote": "They created the most beautiful tropical arrangements for our destination wedding. Despite the logistics, everything was flawless. Highly recommend!",
+        "name": "Amanda L.",
+        "location": "Rustic Barn",
+        "rating": "5.0",
+        "quote": "Perfect florals for our rustic theme! The wildflower arrangements were minutes away from what I'd dreamed of, and everything was cozy and elegant. Love it!",
         "avatar": "https://placehold.co/80x80/fce7f4/d92983?text=A",
-        "rating": 5
+        "date": "Aug 13, 2025"
+      },
+      {
+        "id": "testimonial-5",
+        "name": "Rachel T.",
+        "location": "Church Wedding",
+        "rating": "5.0",
+        "quote": "Such beautiful arrangements! The altar flowers were great, the ceremony was quiet and elegant, and Shanoory made check-in super easy. Communication was smooth and stress-free!",
+        "avatar": "https://placehold.co/80x80/fce7f4/d92983?text=R",
+        "date": "Jun 08, 2025"
+      },
+      {
+        "id": "testimonial-6",
+        "name": "Michael B.",
+        "location": "Vineyard Wedding",
+        "rating": "5.0",
+        "quote": "Superhost service all the way. The florals were beautiful, communication was instant, and we felt right at home from the start. The atmosphere was so welcoming. Five stars!",
+        "avatar": "https://placehold.co/80x80/fce7f4/d92983?text=M",
+        "date": "Mar 17, 2025"
+      },
+      {
+        "id": "testimonial-7",
+        "name": "William N.",
+        "location": "Modern Venue",
+        "rating": "5.0",
+        "quote": "Stylish arrangements with everything we needed. The team was quick to respond, making planning super easy. Would recommend to anyone getting married!",
+        "avatar": "https://placehold.co/80x80/fce7f4/d92983?text=W",
+        "date": "Jul 20, 2025"
+      },
+      {
+        "id": "testimonial-8",
+        "name": "Julian D.",
+        "location": "Garden Estate",
+        "rating": "5.0",
+        "quote": "Fantastic florals! Cozy, beautiful, and perfectly located. The photos don't do it justice – it's even better in person. Everything was so comfortable and well-prepared!",
+        "avatar": "https://placehold.co/80x80/fce7f4/d92983?text=J",
+        "date": "May 17, 2025"
+      },
+      {
+        "id": "testimonial-9",
+        "name": "Scarlett A.",
+        "location": "City Wedding",
+        "rating": "5.0",
+        "quote": "Wonderful experience from start to finish! The arrangements were spotless, elegant, and had everything we needed. The team was friendly and responsive throughout.",
+        "avatar": "https://placehold.co/80x80/fce7f4/d92983?text=S",
+        "date": "Feb 05, 2025"
       }
     ]
   },
@@ -389,43 +455,42 @@
   },
   "footer": {
     "brand": {
-      "name": "FD Floral",
-      "tagline": "Wedding Floral Design",
-      "brandMark": ""
+      "name": "Shanoory",
+      "tagline": "Your Florals"
     },
-    "description": {
-      "text": "Ready to transform your wedding with breathtaking florals?",
-      "highlight": "Let's create something beautiful together."
+    "headline": "Always Here\nfor Your Day",
+    "cta": {
+      "label": "Reserve Now",
+      "href": "#hero"
     },
     "contact": {
-      "email": "hello@fdfloral.com",
-      "phone": "(123) 456-7890",
-      "address": "123 Bloom Street, Flower City, FC 12345"
+      "email": "hello@shanoory.com",
+      "phone": "+1 (212) 555-0199"
     },
-    "newsletter": {
-      "title": "Get wedding floral inspiration delivered to your inbox.",
-      "placeholder": "Your email",
-      "buttonText": "Subscribe"
-    },
+    "bannerImage": "https://placehold.co/1600x500/fce7f4/d92983?text=Floral+Banner",
     "linkGroups": [
       {
-        "title": "Quick Links",
+        "title": "Menu",
         "links": [
-          {
-            "name": "Home",
-            "href": "#hero"
-          },
           {
             "name": "About",
             "href": "#intro"
+          },
+          {
+            "name": "Gallery",
+            "href": "#works"
           },
           {
             "name": "Services",
             "href": "#services"
           },
           {
-            "name": "Portfolio",
-            "href": "#works"
+            "name": "Reviews",
+            "href": "#testimonials"
+          },
+          {
+            "name": "FAQ",
+            "href": "#faq"
           },
           {
             "name": "Contact",
@@ -434,28 +499,7 @@
         ]
       },
       {
-        "title": "Services",
-        "links": [
-          {
-            "name": "Bridal Bouquets",
-            "href": "#services"
-          },
-          {
-            "name": "Ceremony Decor",
-            "href": "#services"
-          },
-          {
-            "name": "Reception Styling",
-            "href": "#services"
-          },
-          {
-            "name": "Full Wedding Styling",
-            "href": "#services"
-          }
-        ]
-      },
-      {
-        "title": "Follow Us",
+        "title": "Explore",
         "links": [
           {
             "name": "Instagram",
@@ -464,24 +508,16 @@
           {
             "name": "Pinterest",
             "href": "https://pinterest.com"
-          },
-          {
-            "name": "Facebook",
-            "href": "https://facebook.com"
           }
         ]
       }
     ],
     "bottomLinks": [
       {
-        "name": "Privacy Policy",
-        "href": "/privacy"
-      },
-      {
-        "name": "Terms of Service",
-        "href": "/terms"
+        "name": "Licenses",
+        "href": "/licenses"
       }
     ],
-    "copyright": "© 2026 FD Floral. All rights reserved."
+    "copyright": "© 2026 Shanoory. All rights reserved."
   }
 }
