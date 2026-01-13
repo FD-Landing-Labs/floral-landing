@@ -117,8 +117,8 @@ export function Testimonials({ data }: TestimonialsProps) {
           </div>
 
           {/* Overall Rating with decorative brackets */}
-          <div className="flex items-center ">
-            <span className="text-[clamp(3rem,8vw,5rem)] font-medium text-primary-950 tracking-tighter">
+          <div className="flex items-center mb-5">
+            <span className="text-6xl md:text-[clamp(3rem,8vw,5rem)] font-medium text-primary-950 tracking-tighter">
               {data.overallRating}
             </span>
           </div>
@@ -144,7 +144,7 @@ export function Testimonials({ data }: TestimonialsProps) {
                 transition={{ delay: 0.2 + index * 0.1, duration: 0.4 }}
                 className={`text-center`}
               >
-                <p className="text-2xl md:text-5xl font-medium text-primary-800 mb-1">
+                <p className="text-4xl md:text-5xl font-medium text-primary-800 mb-1">
                   {category.value}
                 </p>
                 <p className="text-xs md:text-base text-muted-foreground font-medium ">
